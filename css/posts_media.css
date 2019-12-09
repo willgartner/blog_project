@@ -1,0 +1,21 @@
+@media(min-width:992px) {
+    article {
+        border: 1px solid #cdcdcd;
+        border-radius: 5px;
+        box-shadow: 2px 2px #dedede;
+        padding: 0.8rem;
+        margin: 0.6rem 0;
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+        grid-gap: 3px;
+        grid-template-areas: 
+            "im im tt tt"
+            "im im ss ss"
+            "im im ss ss"
+            "mm mm mm mm"
+            "mm mm mm mm"
+            "mm mm mm mm"
+            "mm mm mm mm"
+    }
+}
