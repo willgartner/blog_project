@@ -1,7 +1,7 @@
 
 @media(min-width:992px) {
     .container {
-        display:grid;
+        display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-auto-rows: minmax(50px, auto);
         grid-template-areas: 
@@ -15,11 +15,11 @@
     .sidebar {
         padding: 0 1.0em;
     }
-    .sidebar ul {
+    .sidebar-ul {
         padding: 0 1.0em;
         font-size: 1.0rem;
     }
-    .sidebar li {
+    .sidebar-li {
         display: block;
     }
     .inline-dot {

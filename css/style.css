@@ -36,13 +36,13 @@ footer {
     flex: auto;
     padding: 1.0em 1.0em;
 }
-.footer-subscribe a {
+.footer-subscribe-link {
     color: #fff;
 }
-.footer-subscribe a:hover {
+.footer-subscribe-link:hover {
     color: #ffff00;
 }
-.footer-subscribe a:visited {
+.footer-subscribe-link:visited {
     color: #ffa500;
 }
 .btn {

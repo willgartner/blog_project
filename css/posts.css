@@ -57,18 +57,18 @@ article {
 .post-main {
     grid-area: mm;
 }
-.post-player-img>img {
+.post-player-card {
     width: 75%;
     margin: auto;
 }
-.post-team-img>img {
+.post-logo {
     width: 50%;
     margin: auto;
 }
 .post-team-img>h4 {
     margin: auto;
 }
-.caption {
+figcaption {
     font-size: 1.0rem;
     font-variant: small-caps;
     font-style: italic;
